@@ -23,14 +23,21 @@
     </header>
 
     <main>
-        <video id="video" src=""></video>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <label for="email">Let us build your ideal game system</label>
-            <input id="email" type="email" placeholder="enter email..." required>
-            <button id="submit">submit</button>
-        </form>
+        <div class="video-container">
+            <h2>How to build a custom computer</h2>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/E9-x3jRSQvQ" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div id="form-container">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email">Let us build your ideal game system</label>
+                <input id="email" type="email" placeholder="enter email..." required>
+                <button id="submit">Get Started</button>
+            </form>
+        </div>
         <article id="features">
-            <section id="components">
+            <section class="container" id="components">
                 <img src="./images/noun_component_3120650.png" alt="components">
                 <h2>Premium Components</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed feugiat sem, id finibus purus.
@@ -45,7 +52,7 @@
                     congue metus ipsum et ligula. Vivamus pulvinar ultrices auctor. Fusce vitae lorem ut nunc pretium
                     efficitur.</p>
             </section>
-            <section id="shipping">
+            <section class="container" id="shipping">
                 <img src="./images/noun_delivery_1899035.png" alt="shipping">
                 <h2>Fast Shipping</h2>
                 <p>Proin malesuada quis nisl vel ultrices. Integer vel diam quam. Pellentesque placerat purus non libero
@@ -57,7 +64,7 @@
                     sodales ut vel nunc. In hac habitasse platea dictumst. Suspendisse tortor urna, ornare a ullamcorper
                     pellentesque, accumsan aliquam est.</p>
             </section>
-            <section>
+            <section class="container">
                 <img src="./images/noun_quality_1078233.png" alt="quality">
                 <h2>Quality Assurance</h2>
                 <p>Fusce vel vehicula nunc. Duis eu euismod erat, non rutrum mi. Nulla vitae purus massa. Donec sodales
