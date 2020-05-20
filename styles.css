@@ -121,7 +121,8 @@ h2 {
     cursor: pointer;
 }
 
-#features {
+
+.feature-container {
     padding: 5rem 25rem;
 }
 
