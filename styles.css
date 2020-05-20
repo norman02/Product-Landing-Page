@@ -126,6 +126,18 @@ h2 {
     padding: 5rem 25rem;
 }
 
+#pricing {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-container {
+    background-color: rgb(233, 159, 159);
+    color: white;
+    padding: 2rem;
+    margin: 5rem;
+}
+
 
 
 
