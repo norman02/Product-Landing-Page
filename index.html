@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Custom Gaming Computers</title>
@@ -14,26 +15,26 @@
         <img id="header-img" src="./images/noun_Game_1678469.png" alt="logo image">
         <h1 id="title">Custom Gaming</h1>
         <nav id="nav-bar">
-            <ul>
-                <li class="nav-link"><a href="#form-container">Contact</a></li>
-                <li class="nav-link"><a href="#features">Features</a></li>
-                <li class="nav-link"><a href="#video">How it Works</a></li>
+            <ul>          
+                <li class="nav-link"><a href="#how-it-works">How it Works</a></li>
+                <li class="nav-link"><a href="#contact">Contact</a></li>
+                <li class="nav-link"><a href="#features">Features</a></li>              
                 <li class="nav-link"><a href="#pricing">Pricing</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div class="video-container">
+        <div id="how-it-works" class="video-container">
             <h2>How to build a custom computer</h2>
             <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/E9-x3jRSQvQ" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
-        <div id="form-container">
+        <div id="contact">
             <form id="form" action="https://www.freecodecamp.com/email-submit">
                 <label for="email">Let us build your ideal game system</label>
-                <input id="email" type="email" placeholder="enter email..." required>
+                <input id="email" type="email" name="email" placeholder="enter email..." required></input>
                 <input type="submit" id="submit">Get Started</input>
             </form>
         </div>
@@ -58,7 +59,7 @@
                     pretium
                     efficitur.</p>
             </section>
-        
+
             <section class="feature-container" id="shipping">
                 <h2>Fast Shipping</h2>
                 <p>Proin malesuada quis nisl vel ultrices. Integer vel diam quam. Pellentesque placerat purus non libero
